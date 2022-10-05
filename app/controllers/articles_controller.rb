@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
   def index
-    flash[:notice] = "Hiya, FLASH ⚡"
+    flash[:notice] = t(:hello_flash)
   end
 end
